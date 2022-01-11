@@ -1,0 +1,103 @@
+body{
+
+background: pink;
+color: blue;
+
+}
+
+a{
+
+  color:gray;
+
+}
+
+a: hover {
+
+   color:green;
+   background:purple;
+   text-decoration: none;
+
+
+
+}
+
+.greenlink:hover {
+       color:black;
+       background:white;
+
+}
+
+
+h1{
+
+    font-family: "Times new roman" serif;
+    font-size: 50pt;
+    font-family: monospace;
+
+
+}
+
+
+.indent{
+
+         margin-left: 10px;
+
+
+}
+
+.gao_below {
+          margin_bottom:25px;
+
+}
+
+@media  (min-width:1000px) {
+
+      body{
+
+            background: pink;
+
+      }
+
+}
+
+
+@media (mid_width:750px) {
+      .responsive{
+
+          display:inline-block;
+          width:300px;
+
+
+      }
+
+}
+
+@media (min-width: 1000px) {
+.responsive{
+
+	display:inline-block;
+	width:500px;
+             border:1px solid black;
+
+     }
+
+}
+
+
+
+.thin_border{
+
+     border: 1px solid black;
+
+}
+
+.large-img{
+   max-width: 50%;
+   margin-top: 10px;
+}
+
+iframe.center {
+   display: block;
+   margin-left: auto;
+   margin-right:auto;
+}
